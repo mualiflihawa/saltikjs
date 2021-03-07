@@ -1,0 +1,98 @@
+#correction{
+    background-color:#ffc9c9;
+}
+
+#saltik{
+    width: max-content;
+    display: flex;
+    border:rgb(243,243,243);
+    border-width: 1px;
+    border-style: solid;
+
+    border-radius: 5px;
+
+    position: absolute;
+    box-shadow:rgba(60,64,67, 0.5) 0px 1px 7px 0px;
+    font-family: "Google Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 4px;
+    background-color: rgb(255, 255, 255);
+    animation-name: fade;
+    animation-duration: 0.2s;
+}
+
+#saltik .morebox #anotherword{
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#saltik .morebox #anotherword li{
+    padding: .6em!important;
+}
+
+#saltik .word,
+#saltik .noword,
+#saltik #iconmore,
+#saltik #removemark,
+#saltik .morebox #anotherword li{
+    padding:3px;
+    cursor: pointer;
+    border-radius: 3px;
+    position: relative;
+}
+
+#saltik #removemark{
+    padding:2px!important;
+}
+
+#saltik .noword{
+    cursor:not-allowed;
+}
+
+#saltik .word,
+#saltik .noword{
+    padding-left:10px;
+    padding-right:10px;
+    text-align: left;
+}
+
+#saltik .word:hover,
+#saltik #iconmore:hover,
+#saltik #removemark:hover,
+#saltik .morebox #anotherword li:hover{
+    background-color: #f3f3f3;
+}
+
+#saltik #iconmore{
+    display: flex;
+    align-items: center;
+}
+#saltik .morebox{
+    box-shadow:rgba(60,64,67, 0.5) 0px 1px 7px 0px;
+    background: white;
+    position: absolute;
+    
+    top: 0;
+    left: -1px;
+
+    padding: .5em;
+    margin-top: 2.6em;
+    border-radius: 5px;
+
+    width:max-content;
+    display: none;
+}
+#saltik .show{
+    display: block!important;
+}
+#saltik .morebox h4{
+    margin-top: 1em;
+    margin-bottom: 0;
+    margin-left: .6em;
+    margin-right: .6em;
+}
+
+@keyframes fade{from {opacity: 0;} to {opacity: 1.0;}}

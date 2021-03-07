@@ -1,0 +1,11 @@
+{
+  "name": "saltik",
+  "version": "0.0.3",
+  "description": "Pembuatan Library Saltikjs Dalam Mendeteksi Salah Kata Dan Penentuan Rekomendasi Kata Yang Tepat Menggunakan Algoritma Levenshtein Dan Metode Regular Search Expression",
+  "main": "saltik.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mualiflihawa",
+  "license": "MIT"
+}
