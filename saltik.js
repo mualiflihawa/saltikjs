@@ -332,7 +332,7 @@ class Saltik{
 
 			for(const word of check){
 				
-				var regex = new RegExp(word,'gi');
+				var regex = new RegExp(`(\\b${word}\\b)`,'gi');
 				this.editor.innerHTML = this.editor.innerHTML.replace(regex,'<mark id="correction">'+word+'</mark>');
 				
 			}
