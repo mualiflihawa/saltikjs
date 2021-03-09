@@ -45,7 +45,7 @@ class Saltik{
 	// change textContent in editor to words
 	textContent(editor){
 		let node = editor.textContent;
-		node = node.replace(/[,.?]/g," ");
+		node = node.replace(/[,-.?]/g," ");
 		node = node.split(" ");// exploded textContent
 
 		let text = [];

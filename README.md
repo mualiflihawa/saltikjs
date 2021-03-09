@@ -1,4 +1,4 @@
-## dokumentasi 0.0.2
+## dokumentasi
 
 #### tentang saltik
 saltikjs adalah sebuah library yang berguna untuk mendeteksi salah kata pada editor.
@@ -61,9 +61,5 @@ terdapat 2 method yang bisa panggil yaitu :
 #### batasan library
 1. untuk saat ini saltik hanya bisa mencari kata yang salah pada editor dengan ketentuan regex yang telah ditetapkan dan mendeteksi kemiripan kata yang salah dengan kata pada kamus masih menggunakan algoritma Levenshtein.
 2. masih menggunakan element yang berattribute contenteditable plaintext-only.
-
-#### devlog
-versi 0.0.2. menambahkan dokumentasi
-versi 0.0.1. publish library ke npm
 
 #### doakan aku biar lulus ujian dan dapatkan gelar s.kom, dengan begitu aku akan melanjutkan saltik.js kedapanya :')
